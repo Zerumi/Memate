@@ -29,6 +29,7 @@ namespace WpfApp1
 
         private async void EVENT_LOAD(object sender, RoutedEventArgs e)
         {
+            linkload:
 #pragma warning disable CS0618 // Тип или член устарел
             IPHostEntry ipHostInfo = Dns.Resolve(Dns.GetHostName());
 #pragma warning restore CS0618 // Тип или член устарел
@@ -72,6 +73,7 @@ namespace WpfApp1
             catch (Exception ex)
             {
                 MessageBox.Show(ex.Message);
+                Memate.BeginInit();
             }
         }
         private void SEND_CLICK(object sender, RoutedEventArgs e)
@@ -92,7 +94,62 @@ namespace WpfApp1
             catch (Exception ex)
             {
                 MessageBox.Show(ex.Message);
+                Memate.BeginInit();
             }
         }
+
+        //private async void IP_BOX_TextChanged(object sender, TextChangedEventArgs e)
+        //{
+        ////    STATUS_CONNECT.Content = "Loading...";
+        ////    if (PORT_BOX.Text == "")
+        ////    {
+        ////        STATUS_CONNECT.Content = "Enter port";
+        ////        return;
+        ////    }
+        ////    else if (IP_BOX.Text == "")
+        ////    {
+        ////        STATUS_CONNECT.Content = "Enter IP";
+        ////        return;
+        ////    }
+        ////    try
+        ////    {
+        ////        IPEndPoint ipPoint = new IPEndPoint(IPAddress.Parse(IP_BOX.Text), Convert.ToInt32(PORT_BOX.Text));
+
+        ////        Socket socket = new Socket(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.Tcp);
+        ////        await Task.Run(() => socket.Connect(ipPoint));
+        ////        STATUS_CONNECT.Content = "Connected";
+        ////    }
+        ////    catch (Exception)
+        ////    {
+        ////        STATUS_CONNECT.Content = "Not connected";
+        ////    }
+        //}
+
+        //private async void PORT_BOX_TextChanged(object sender, TextChangedEventArgs e)
+        //{
+        //    //STATUS_CONNECT.Content = "Loading...";
+        //    //if (PORT_BOX.Text == "")
+        //    //{
+        //    //    STATUS_CONNECT.Content = "Enter port";
+        //    //    return;
+        //    //}
+        //    //else if (IP_BOX.Text == "")
+        //    //{
+        //    //    STATUS_CONNECT.Content = "Enter IP";
+        //    //    return;
+        //    //}
+        //    //try
+        //    //{
+        //    //    IPEndPoint ipPoint = new IPEndPoint(IPAddress.Parse(IP_BOX.Text), Convert.ToInt32(PORT_BOX.Text));
+
+        //    //    Socket socket = new Socket(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.Tcp);
+        //    //    await Task.Run(() => socket.Connect(ipPoint));
+        //    //    STATUS_CONNECT.Content = "Connected";
+        //    //}
+        //    //catch (Exception)
+        //    //{
+        //    //    STATUS_CONNECT.Content = "Not connected";
+        //    //}
+        //}
     }
 }

@@ -1,0 +1,19 @@
+﻿<Window x:Class="WpfApp1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        mc:Ignorable="d"
+        Title="Memate v.1.1 by Zerumi" Height="450" Width="800" Loaded="EVENT_LOAD">
+    <Grid>
+        <Button x:Name="SEND_BUTTON" Margin="590,334,59,40" Content="Send" AutomationProperties.Name="SEND_BUTTON" FontWeight="Bold" FontSize="24" Click="SEND_CLICK"></Button>
+        <TextBox x:Name="MESSAGE_TEXTBOX" HorizontalAlignment="Left" Height="25" Margin="442,334,0,0" TextWrapping="Wrap" Text="Write a message" VerticalAlignment="Top" Width="143"/>
+        <TextBox x:Name="IP_BOX" HorizontalAlignment="Left" Height="23" Margin="85,10,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="PORT_BOX" HorizontalAlignment="Left" Height="23" Margin="85,33,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="54"/>
+        <Label Content="IP Adress:" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="70" Height="23"/>
+        <Label Content="Port:" HorizontalAlignment="Left" Margin="10,33,0,0" VerticalAlignment="Top" Height="23" Width="70"/>
+        <Label x:Name="IP4CONNECT_LABEL" Content="Loading..." HorizontalAlignment="Left" Margin="10,61,0,0" VerticalAlignment="Top" Height="29" Width="248"/>
+        <TextBox x:Name="MESSAGES" Text="" HorizontalAlignment="Left" Height="279" Margin="354,33,0,0" VerticalAlignment="Top" Width="379"/>
+    </Grid>
+</Window>

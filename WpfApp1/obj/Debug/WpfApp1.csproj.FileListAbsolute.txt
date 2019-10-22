@@ -1,0 +1,30 @@
+C:\Users\user\source\repos\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csprojAssemblyReference.cache
+C:\Users\user\source\repos\WpfApp1\WpfApp1\obj\Debug\MainWindow.g.cs
+C:\Users\user\source\repos\WpfApp1\WpfApp1\obj\Debug\App.g.cs
+C:\Users\user\source\repos\WpfApp1\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.cache
+C:\Users\user\source\repos\WpfApp1\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.lref
+C:\Users\user\source\repos\WpfApp1\WpfApp1\bin\Debug\WpfApp1.exe.config
+C:\Users\user\source\repos\WpfApp1\WpfApp1\bin\Debug\WpfApp1.exe
+C:\Users\user\source\repos\WpfApp1\WpfApp1\bin\Debug\WpfApp1.pdb
+C:\Users\user\source\repos\WpfApp1\WpfApp1\obj\Debug\MainWindow.baml
+C:\Users\user\source\repos\WpfApp1\WpfApp1\obj\Debug\WpfApp1.g.resources
+C:\Users\user\source\repos\WpfApp1\WpfApp1\obj\Debug\WpfApp1.Properties.Resources.resources
+C:\Users\user\source\repos\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.GenerateResource.cache
+C:\Users\user\source\repos\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\WpfApp1\WpfApp1\obj\Debug\WpfApp1.exe
+C:\Users\user\source\repos\WpfApp1\WpfApp1\obj\Debug\WpfApp1.pdb
+Z:\9\8м\Афанасьев\C++ & C#\WpfApp1\WpfApp1\bin\Debug\WpfApp1.exe.config
+Z:\9\8м\Афанасьев\C++ & C#\WpfApp1\WpfApp1\bin\Debug\WpfApp1.exe
+Z:\9\8м\Афанасьев\C++ & C#\WpfApp1\WpfApp1\bin\Debug\WpfApp1.pdb
+Z:\9\8м\Афанасьев\C++ & C#\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csprojAssemblyReference.cache
+Z:\9\8м\Афанасьев\C++ & C#\WpfApp1\WpfApp1\obj\Debug\MainWindow.g.cs
+Z:\9\8м\Афанасьев\C++ & C#\WpfApp1\WpfApp1\obj\Debug\App.g.cs
+Z:\9\8м\Афанасьев\C++ & C#\WpfApp1\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.cache
+Z:\9\8м\Афанасьев\C++ & C#\WpfApp1\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.lref
+Z:\9\8м\Афанасьев\C++ & C#\WpfApp1\WpfApp1\obj\Debug\MainWindow.baml
+Z:\9\8м\Афанасьев\C++ & C#\WpfApp1\WpfApp1\obj\Debug\WpfApp1.g.resources
+Z:\9\8м\Афанасьев\C++ & C#\WpfApp1\WpfApp1\obj\Debug\WpfApp1.Properties.Resources.resources
+Z:\9\8м\Афанасьев\C++ & C#\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.GenerateResource.cache
+Z:\9\8м\Афанасьев\C++ & C#\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.CoreCompileInputs.cache
+Z:\9\8м\Афанасьев\C++ & C#\WpfApp1\WpfApp1\obj\Debug\WpfApp1.exe
+Z:\9\8м\Афанасьев\C++ & C#\WpfApp1\WpfApp1\obj\Debug\WpfApp1.pdb
